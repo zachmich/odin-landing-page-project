@@ -1,0 +1,285 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* header ----------------------------------------------------------------------------------------------------*/
+
+
+
+.content-main {
+    background-color: #1F2937;
+}
+
+.header-content {
+    padding: 1.5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+
+}
+
+
+.header-left {
+    margin: 0% 0% 0% 23%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-right {
+    margin: 0% 23% 0% 0%;
+    gap: 0rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+
+}
+
+.header-link {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* hero ----------------------------------------------------------------------------------------------------------------*/
+
+
+.hero-content {
+    margin: 6rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0rem 6rem 0rem;
+}
+
+.hero {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    padding: 0px 0px 8px 0px;
+}
+
+.hero-left {
+    margin: 0% 0% 0% 23%;
+    max-width: 28rem;
+}
+
+.hero-right {
+    margin: 0% 23% 0% 0%;
+    max-width: 28rem;
+}
+
+.hero-sub {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0px 0px 8px 0px;
+}
+
+
+.image-main {
+    height: 15rem;
+    width: 26rem;
+}
+
+.hero-content button {
+    border-radius: 10px;
+    background-color: #3b82f6;
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #F9FAF8;
+    padding: 10px;
+    width: 110px;
+    margin: 0rem 0rem 1rem 0rem;
+
+}
+
+
+
+
+
+
+/* info ------------------------------------------------------------------------------------------------*/
+
+.content-info {
+    margin: 3rem 0rem;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+.info-units {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem 5rem 0rem;
+}
+
+.unit {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 150px;
+    margin: 0rem 2rem;
+}
+
+.subtext{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #1F2937;
+    margin: 8px 0px;
+}
+
+.image-info {
+    border: solid 4px #3b82f6;
+    border-radius: 10px;
+    height: 160px;
+    width: auto;
+}
+
+
+
+
+
+
+/* quote ---------------------------------------------------------------------------------------- */
+
+
+
+.quote-content{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 8rem 0rem;
+}
+
+.quote-container{
+    max-width: 44rem;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+.quote-attribution{
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    max-width: 40rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #1f2937
+}
+
+
+
+
+
+
+
+
+
+
+
+/* cta ---------------------------------------------------------------------------------------- */
+
+
+.cta-content{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+
+.cta{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.cta-sub{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+
+.cta-left{
+    margin: 0rem 3rem;
+}
+
+.cta-right{
+    margin: 0rem 3rem;
+}
+
+.cta-button{
+    width: 10rem;
+    font-size: 18px;
+    background-color: #3b82f6;
+    border: solid 3px #F9FAF8;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* footer ---------------------------------------------------------------------------------------- */
