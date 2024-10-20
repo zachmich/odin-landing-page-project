@@ -230,6 +230,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 5rem;
+    flex: 1;
 }
 
 .cta-container{
@@ -283,3 +284,18 @@ body {
 
 
 /* footer ---------------------------------------------------------------------------------------- */
+
+
+.footer-content{
+    background-color: #1F2937;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
